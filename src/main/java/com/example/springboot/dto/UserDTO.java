@@ -1,8 +1,18 @@
-package com.example.springboot;
+package com.example.springboot.dto;
 
-public class BatchReqDef1 extends BaseBatchReqDef {
+public class UserDTO {
     String name;
+    String id;
     String address;
+
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
@@ -19,4 +29,5 @@ public class BatchReqDef1 extends BaseBatchReqDef {
     public void setAddress(String address) {
         this.address = address;
     }
+
 }

@@ -1,8 +1,12 @@
 // tag::sample[]
-package com.example.springboot;
+package com.example.springboot.entity;
 
+import com.example.springboot.*;
+import com.example.springboot.dto.BaseBatchReqDef;
+import com.example.springboot.dto.BatchReqDef1;
+import com.example.springboot.dto.BatchReqDef2;
+import com.example.springboot.dto.BatchReqType;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.util.StringUtils;
 
 import javax.persistence.*;

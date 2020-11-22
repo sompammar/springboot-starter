@@ -1,8 +1,7 @@
-package com.example.springboot;
+package com.example.springboot.dbservice;
 
+import com.example.springboot.entity.BatchRequest;
 import org.springframework.data.repository.CrudRepository;
-
-import java.util.List;
 
 public interface BatchRequestRepository extends CrudRepository<BatchRequest, Long> {
 

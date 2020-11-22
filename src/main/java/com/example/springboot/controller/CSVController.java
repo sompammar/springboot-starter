@@ -17,7 +17,7 @@
  *         | dd-mm-yy      | 
  *---------|---------------|---------------------------------------------------
  */
-package com.example.springboot;
+package com.example.springboot.controller;
 
 import com.opencsv.CSVReader;
 import io.swagger.annotations.ApiOperation;
@@ -28,10 +28,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;

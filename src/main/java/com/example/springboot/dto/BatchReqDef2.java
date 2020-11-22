@@ -1,4 +1,4 @@
-package com.example.springboot;
+package com.example.springboot.dto;
 
 public class BatchReqDef2 extends BaseBatchReqDef {
     String param1;

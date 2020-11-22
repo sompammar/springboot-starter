@@ -1,5 +1,7 @@
-package com.example.springboot;
+package com.example.springboot.controller;
 
+import com.example.springboot.entity.BatchRequest;
+import com.example.springboot.businesslogicservice.BatchRequestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
